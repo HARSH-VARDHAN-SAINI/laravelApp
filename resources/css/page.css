@@ -1,0 +1,49 @@
+.medivik-footer{
+  background:#0f5132;
+  color:white;
+  padding-top:50px;
+  font-family:sans-serif;
+}
+
+.footer-container{
+  width:90%;
+  margin:auto;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:40px;
+}
+
+.footer-col h3{
+  color:#FFC83D;
+  margin-bottom:10px;
+}
+
+.footer-col h4{
+  margin-bottom:15px;
+}
+
+.footer-col ul{
+  list-style:none;
+  padding:0;
+}
+
+.footer-col ul li{
+  margin-bottom:8px;
+}
+
+.footer-col ul li a{
+  color:#ddd;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+.footer-col ul li a:hover{
+  color:#FFC83D;
+}
+
+.footer-bottom{
+  text-align:center;
+  padding:20px;
+  margin-top:40px;
+  border-top:1px solid rgba(255,255,255,0.2);
+}
